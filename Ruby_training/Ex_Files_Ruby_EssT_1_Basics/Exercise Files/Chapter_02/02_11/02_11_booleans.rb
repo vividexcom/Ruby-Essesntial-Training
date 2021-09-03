@@ -17,9 +17,9 @@ x < 3
 # => true
 x > 3
 # => false
-x > 0 && x < 100
+x > 0 && x < 100  #greater and less
 # => true
-x >= 100 || x <= 50
+x >= 100 || x <= 50 # greater or less
 # => true
 !x
 # => false
