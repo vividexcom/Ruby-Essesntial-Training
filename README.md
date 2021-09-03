@@ -116,3 +116,12 @@ exclusive = 1...10
 ## Nil
 - nil is an object in ruby
 - nil is not the same as false
+
+## Control Structures
+- add dynamism to code
+- Determine circumstances whne code executes
+- Conditionals
+- Loops
+- Iterations
+- Use multiple lines of code
+- Files are easier to work with that IRB
