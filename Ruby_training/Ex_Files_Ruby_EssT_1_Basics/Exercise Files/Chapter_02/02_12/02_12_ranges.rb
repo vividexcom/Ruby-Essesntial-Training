@@ -5,7 +5,7 @@
 # irb
 inclusive = 1..10
 # => 1..10
-inclusive.class
+inclusive.class  #include 10 in the range
 # => Range
 1..10.class
 # ArgumentError: bad value for range
@@ -13,25 +13,25 @@ inclusive.class
 # 	from :0
 (1..10).class
 # => Range
-exclusive = 1...10
+exclusive = 1...10   #exclude 10 in the range
 # => 1...10
 inclusive.include?(10)
 # => true
 exclusive.include?(10)
 # => false
-inclusive.begin
+inclusive.begin #first value in the range
 # => 1
-inclusive.first
+inclusive.first  #first value in the range
 # => 1
-inclusive.end
+inclusive.end  # last value in the range
 # => 10
-inclusive.last
+inclusive.last  # last value in the range
 # => 10
 exclusive.begin
 # => 1
 exclusive.end
 # => 10
-array = [*inclusive]
+array = [*inclusive] #trun ranges into an array
 # => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 alpha = 'a'..'m'
 # => "a".."m"

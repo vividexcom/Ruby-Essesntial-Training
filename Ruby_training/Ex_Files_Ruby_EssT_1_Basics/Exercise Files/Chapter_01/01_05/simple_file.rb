@@ -10,6 +10,5 @@ puts 123
 
 
 puts 789
-puts 'Hellow World'
-puts 'My name is viviane'
+puts 'Hello World'
 puts 'this is my first ruby programming'
