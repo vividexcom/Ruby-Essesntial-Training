@@ -125,3 +125,15 @@ exclusive = 1...10
 - Iterations
 - Use multiple lines of code
 - Files are easier to work with that IRB
+
+## Conditional id, else, elsif
+
+```
+if boolean
+    #code
+elsif boolean
+     #code
+else
+     #code
+end
+```
