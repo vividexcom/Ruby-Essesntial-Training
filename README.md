@@ -82,3 +82,37 @@ car = {
 }
 ```
 
+## Symbols
+- symbols are like strings but cannot be edited
+- Begin with a colon
+- Not delimited by quotes
+- all Lowercase, underscoce to  separate items instead of spaces
+- sysmbol's aloow computer to better manage memory
+- Key is always a symbol
+- cannot use interges as keys
+- :100 is not a valid symbol name
+
+```
+person = {
+    :first_name => 'Benjamin', 
+    :last_name => 'Franklin'
+    }
+```
+
+## Ranges 
+- Sequences have a start point, an end point, and a way to produce successive values in the sequence
+- The two-dot form creates an inclusive range
+- The three-dot form creates a range that excludes the specified high value
+
+```
+inclusive = 1..10
+exclusive = 1...10
+```
+## Constants
+
+- variables are in all caps
+- Cannot change throught the program but can be changed. Ruby will give you a warning if you change constants
+
+## Nil
+- nil is an object in ruby
+- nil is not the same as false
