@@ -3,7 +3,7 @@
 # the same results shown in the comments.
 
 # irb
-"test".object_id
+"test".object_id  
 # => 70287715030480
 "test".object_id
 # => 70287714953440
@@ -11,13 +11,13 @@
 # => 371228
 :test.object_id
 # => 371228
-person = {:first_name => 'Benjamin', :last_name => 'Franklin'}
+person = {:first_name => 'Benjamin', :last_name => 'Franklin'}   #set person variable as symbol 
 # => {:first_name => "Benjamin", :last_name => "Franklin"}
-person[:first_name]
+person[:first_name]  # call a symbol/ retrieve a symbol
 # => "Benjamin"
 person['first_name']
 # => nil
-shorthand = {first_name: 'Benjamin', last_name: 'Franklin'}
+shorthand = {first_name: 'Benjamin', last_name: 'Franklin'} #hash symbol shothand allows to put symboly colon after the value
 # => {:first_name => "Benjamin", :last_name => "Franklin"}
 quit
 
