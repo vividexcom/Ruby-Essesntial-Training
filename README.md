@@ -126,7 +126,7 @@ exclusive = 1...10
 - Use multiple lines of code
 - Files are easier to work with that IRB
 
-## Conditional id, else, elsif
+## Conditional: if, else, elsif
 
 ```
 if boolean
@@ -137,3 +137,44 @@ else
      #code
 end
 ```
+## Conditional: unless
+- This is the same as if not
+
+```
+unless boolean
+    #code
+else
+     #code
+end
+```
+## Conditional: Case statement
+```
+case
+when boolean
+    #code
+when boolean
+     #code
+else
+     #code
+end
+```
+## Conditional: Ternary Operator or shorthand operators
+- Use this when you are performing a short operation
+
+## Loops: loop do, while, until
+### Loop control methods
+- breaker = teminates the whole loop
+- next = jump to next loop
+- redo = redo this loop
+- retry = restart the whole loop over
+
+## Iterators: times, upto, downto, each
+- run repeatedly until hits break point
+
+### Iterators by class
+1. Numberss: times, upto, downto, step
+2. Range: each, step
+3. String: each_line, each_char, each_byte
+4. Array: each, each_index, each_with_index
+5. Hash: each, each_key, each_value, each_pair
+6.
