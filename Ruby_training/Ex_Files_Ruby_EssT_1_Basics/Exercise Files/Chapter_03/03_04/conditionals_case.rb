@@ -11,6 +11,7 @@ else
   puts "many people"
 end
 
+# Or
 case count
 when 0
   puts "nobody"
